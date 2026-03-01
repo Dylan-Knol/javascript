@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="wachtwoord.css" />
+    <script src="wachtwoord.js" defer></script>
+  </head>
+  <body>
+    <div id="loginContainer">
+      <form>
+        <h2 id="loginTitle">Login</h2>
+        <input type="text" id="inlogUsername" placeholder="Username" required />
+        <br />
+        <input
+          type="password"
+          id="inlogPassword"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <div id="loginRegister">
+          <button type="submit" id="registerButton">Register</button>
+          <button type="submit" id="inlogButton">Login</button>
+        </div>
+      </form>
+      <p id="foutmelding"></p>
+    </div>
+  </body>
+</html>
